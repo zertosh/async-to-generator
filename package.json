@@ -1,0 +1,21 @@
+{
+  "name": "async-to-generator",
+  "version": "0.0.0",
+  "description": "Babel's asyncToGenerator helper as a standalone package",
+  "keywords": [
+    "async-to-generator",
+    "babel"
+  ],
+  "license": "MIT",
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "files": [
+    "async-to-generator.js"
+  ],
+  "main": "async-to-generator.js",
+  "repository": "https://github.com/zertosh/async-to-generator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
