@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for i in {1..5}; do node -e '
+  "use strict";
+  var asyncToGenerator = require("./async-to-generator").default;
+  asyncToGenerator(function *() {
+    var start = Date.now();
+    var i = 1000000;
+    while (i--) yield;
+    console.log(Date.now() - start);
+  })();
+'; done
