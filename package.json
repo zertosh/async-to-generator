@@ -1,6 +1,6 @@
 {
   "name": "async-to-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Babel's asyncToGenerator helper as a standalone package",
   "keywords": [
     "async-to-generator",
